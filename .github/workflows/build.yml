@@ -1,8 +1,7 @@
 on: push
 jobs:
   first-job:
-    runs-on: macos-latest
+    runs-on: sw_vers
     steps:
       - run: node --version
       - run: npm --version
-      
